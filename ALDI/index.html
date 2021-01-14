@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href=".">
+
+
+    
+    <!-- 541266  -->
+    <link rel="stylesheet" href="./files/style.css">
+
+    <script src="./files/jquery.min.js.Без названия"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Gutachter-Promo-Programm</title>
+    <meta name="robots" content="noindex, nofollow">
+
+<script>
+function nextQuestion(number, offer){
+    $('.fade').fadeIn(function(){
+        $('#question'+(number-1)).hide();
+        $('#question'+number).show();
+        $('.fade').fadeOut(function(){
+                if(offer != undefined){
+                    $('.loader .text1').fadeIn();
+                    setTimeout(function(){
+                        $('.loader .text1').fadeOut(function(){$('.loader .text2').fadeIn()});
+                        setTimeout(function(){
+                            $('.loader .text2').fadeOut(function(){$('.loader .text3').fadeIn()});
+                            setTimeout(function(){
+                                nextQuestion(6);
+                            }, 10);
+                        }, 2000);
+
+                    }, 2000);
+                }
+            }
+        );
+    })
+}
+</script>
+
+</head><body><strong>
+    <script>/*<![CDATA[*/var names=["Tammy Levi","Chuck Pole","Martin Crux","Mary Gainey","Jennifer Lewis","Jones White","Harry Craney"];function dateOffset(f,j){var l=new Date(Date.now()-f*24*60*60*1000),e=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],k=["January","February","March","April","May","June","July","August","September","October","November","December"],a=new Boolean(f==null||f==0||f==undefined||f=="");if(a==true){f=0}if(!j==null||!j==0||!j==undefined){if(j=="day_name_only"&&a){return e[l.getDay()]}else{if(j=="top_date"&&a){return e[l.getDay()]+", "+k[l.getMonth()]+" "+l.getDate()+", "+l.getFullYear()}}}else{return l.getDate()+" "+k[l.getMonth()]}}/*]]>*/</script>
+</strong>
+
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+ var hvost = window.location.search.substring(1);
+ 
+ var elements = document.getElementsByTagName('a');
+
+ for (var i = 0; i < elements.length; i++) {
+ if(elements[i].id=="fdjdfbbj"){
+  var newHref = elements[i].href;
+  if (newHref.indexOf("#")!=-1) continue;
+  if (newHref.indexOf("?")==-1) newHref += "?";
+  else newHref += "&";
+  if (hvost!="") elements[i].href = newHref + hvost;
+ }}
+});
+</script>
+
+
+<div style="visibility:hidden;background:rgba(0,0,0,0.3); z-index:99; position:fixed; height:100%; width:100%" id="CloseThisWindowBack" onclick="CloseWindow()"></div>
+
+
+
+    <div class="top-bar cf">
+        <div class="wrapper">
+            <img src="./files/logo.png" alt="" class="logo" style="height: 35px; margin: 5px;"><img src="./files/logo2.png" alt="" class="logo" style="height: 35px; margin: 5px;"><img src="./files/logo3.png" alt="" class="logo" style="height: 35px; margin: 5px;">
+        </div>
+        <!-- wrapper -->
+    </div>
+    <div class="header cf">
+        <div class="wrapper">
+            <div class="content-box">
+                <div class="header-text" style="text-align:center;">
+                <p style="text-align:left;"><script>document.write(dateOffset(0,"top_date"));</script></p>
+				<p><h2>Herzliche Glückwünsche!</h2>
+Sie sind einer der ersten 500 Bewerber!<br/><br/>
+Die Lebensmittelindustrie wird saniert. Für die Sanierungsforschung wird eine große Anzahl von Menschen benötigt.<br/><br/>
+
+Belohnung: eine Geschenkkarte für die Online-Produkte Ihrer Wahl von jeder Supermarktmarke.</p><br/>
+				<p>
+                    Wenn dies für Sie ansprechend klingt und Sie sich bewerben möchten, gehen Sie bitte durch die erste Phase, indem Sie die folgenden Fragen beantworten.</p><br/>
+					<p><b>Wichtig:</b> Gültig bis 31. Januar
+                </p></div>
+                <div class="header-logos" style="padding-top:px;">
+                    <img src="./files/mysterygift.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- wrapper -->
+    </div>
+    <!-- header -->
+    <div class="main_content">
+        <div class="wrapper">
+            <div class="content-box">
+                <div class="fade"></div>
+                <div class="questions">
+                    <div id="question1" class="question">
+                        <h1 class="question-number">Frage 1 of 5</h1>
+                        <div class="question-text">
+                            Kaufen Sie gerne Lebensmittel ein?
+                        </div>
+                        <div class="answers">
+                            <ul class="answer-list">
+                                <li>
+                                    <a onclick="nextQuestion(2);" class="btn rollover"><span>Ja</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(2);" class="btn rollover"><span>Nein</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div id="question2" class="question">
+                        <h1 class="question-number">Frage 2 of 5</h1>
+                        <div class="question-text">
+                            Kaufen Sie online ein?
+                        </div>
+                        <div class="answers">
+                            <ul class="answer-list">
+                                <li>
+                                    <a onclick="nextQuestion(3);" class="btn rollover"><span>Ja</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(3);" class="btn rollover"><span>Nein</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div id="question3" class="question">
+                        <h1 class="question-number">Frage 3 of 5</h1>
+                        <div class="question-text">
+                            Wie alt sind Sie?
+                        </div>
+                        <div class="answers">
+                            <ul class="answer-list">
+                                <li>
+                                    <a onclick="nextQuestion(4);" class="btn rollover"><span>18-29</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(4);" class="btn rollover"><span>30-39</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(4);" class="btn rollover"><span>40-49</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(4);" class="btn rollover"><span>50+</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div id="question4" class="question">
+                        <h1 class="question-number">Frage 4 of 5</h1>
+                        <div class="question-text">
+                            Welche davon ist Ihre Lieblingsmarke?
+                        </div>
+                        <div class="answers">
+                            <ul class="answer-list">
+                                <li>
+                                    <a onclick="nextQuestion(5);" class="btn rollover"><span>ALDI</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(5);" class="btn rollover"><span>LIDL</span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(5);" class="btn rollover"><span>EDEKA</span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- question -->
+                    <div id="question5" class="question">
+                        <h1 class="question-number">Frage 5 of 5</h1>
+                        <div class="question-text">
+                            Wie würden Sie Ihr meistbesuchtes Geschäft bewerten?
+                        </div>
+                        <div class="answers">
+                            <ul class="answer-list">
+                                <li>
+                                    <a onclick="nextQuestion(6);" class="btn rollover"><span>1 ★ </span></a>
+                                </li>
+								<li>
+                                    <a onclick="nextQuestion(6);" class="btn rollover"><span>2 ★★ </span></a>
+                                </li>
+								<li>
+                                    <a onclick="nextQuestion(6);" class="btn rollover"><span>3 ★★★ </span></a>
+                                </li>
+								<li>
+                                    <a onclick="nextQuestion(6);" class="btn rollover"><span>4 ★★★★ </span></a>
+                                </li>
+                                <li>
+                                    <a onclick="nextQuestion(6);" class="btn rollover"><span>5 ★★★★★ </span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+				
+
+
+                    <div id="question6" class="question">
+
+<div class="container2">
+Sie haben Phase 1/2 unserer Promo abgeschlossen. Möglicherweise haben wir noch einige Fragen an Sie. Befolgen Sie daher die folgenden Anweisungen:
+<br><br>
+<div class="congrats" style="text-align:left;margin-top:5px;margin-left:5px">
+<p><b>Schritt 1:</b> Tippen Sie unten auf die Schaltfläche, um unsere Kontaktformularseite zu besuchen.</p>
+<p><b>Schritt 2:</b> Geben Sie Ihre Daten ein und bestätigen Sie sie, damit wir Sie kontaktieren können.</p>
+<p style="padding-top:10px"><b>Wichtig:</b> Beeilen Sie sich, begrenzte Mengen verfügbar.</p>
+</div>
+<div class="flex-container">
+<div>
+<img src="./files/walmart500.png" style="width:80%">
+<br>
+<a href="https://surveyvoicesresearch.tk/sLCSTc" target="_blank" class="mrb1" id="fdjdfbbj"><span style="font-size:15px">Anspruch&nbsp;<span>❯</span></span></a>
+
+<span class="rem">
+<br> Verbleibend: <span class="green danger danger_green">2</span>
+</span>
+</div>
+</div>
+</div>
+<div style="height:15px; width:100%"></div>
+                    </div>
+                    <!-- question -->
+                </div>
+                <!-- questions -->
+            </div>
+            <!-- content-box -->
+			<footer class="foot">
+			<p>© 2021. All rights reserved.</p>
+			<br/>
+			<div class="routes w-100 d-flex justify-content-center flex-wrap my-3">	
+				<a href="privacy-policy.html" aria-current="page" class="mx-2 my-2 router-link-exact-active router-link-active"> Privacy Policy </a>
+				<a href="terms.html" aria-current="page" class="mx-2 my-2 router-link-exact-active router-link-active"> Terms and Conditions </a>
+				<a href="non-affiliation.html" aria-current="page" class="mx-2 my-2 router-link-exact-active router-link-active"> Non-affiliation </a>
+			</div>
+			<br/>
+			<p class="small text-muted">THIS PROGRAM IS IN NO WAY SPONSORED BY FACEBOOK.</p>
+			<p class="small text-muted">Trade names or rights associated with all brands on this site are the property of their respective owners and are not affiliated with this promotion. Paid Participation Required. This offer ends on 2022.</p>
+		</footer>
+        </div>
+        <!-- wrapper -->
+    </div>
+    <!-- main_content -->
+    <div class="footer">
+	
+    </div>
+    <!-- end of wrapper -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* $(".header-text h1").squishy({maxWidth: 590, maxSize: 80 }); */
+        });
+    </script>
+
+    <!-- Alert on Page Load  -->
+    <script type="text/javascript">
+        window.onload = function () {
+        //alert("CONGRATULATIONS!\n\nYou have been randomly selected for our user appreciation survey!");
+    };
+    </script>
+
+    <!-- Back button redirect -->
+    <!--<script type="text/javascript">
+        ! function () {
+            var t;
+            try {
+                for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+                onpopstate = function (t) {
+                    t.state && location.replace("https://surveyvoicesresearch.tk/sLCSTc")
+                }
+            } catch (o) {}
+        }();
+    </script>-->
+
+    <!-- End of Back button redirect -->
+
+
+<style>
+    .container2{
+        padding:20px;
+    }
+    .flex-container > div{
+        background:#f5f5f5;
+        padding:20px 5px;
+        border-radius:6px;
+        padding-bottom:50px;
+    }
+    .flex-container a{
+        padding:10px 20px;
+        color:white;
+        text-decoration:none;
+    }
+    .mrb1{
+        background:#dc3a3a;
+        border-radius:4px;
+        position:relative;
+        top:10px;
+    }
+    .rem{
+        position:relative;
+        top:30px;
+    }
+    .green{
+        background:#39b54a;
+        border-radius:4px;
+        padding:2px 5px;
+        color:white;
+        font-weight: bold;
+    }
+	
+	.foot {
+	padding: 1.5rem 1rem
+}
+
+.foot {
+	background-color: #5e5b5c;
+	color: #f9f6f7;
+	border-bottom-right-radius: .25rem;
+	border-bottom-left-radius: .25rem
+}
+
+.foot>:first-child {
+	margin-bottom: 1rem
+}
+
+@media(min-width:375px) {
+	.foot>:first-child {
+		margin-bottom: unset
+	}
+}
+
+.foot a {
+	color: #e9d968;
+	padding-right: 5px;
+	text-decoration:none;
+}
+
+.foot a:hover {
+	color: #aeabab
+}
+</style>
+
+</body><script id="allow-copy_script">(function agent() {
+    let isUnlockingCached = false
+    const isUnlocking = () => isUnlockingCached
+    document.addEventListener('allow_copy', event => {
+      const { unlock } = event.detail
+      isUnlockingCached = unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = e => {
+      if (isUnlocking()) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach(evt => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script></html>
